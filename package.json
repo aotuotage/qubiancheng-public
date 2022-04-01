@@ -1,0 +1,24 @@
+{
+  "name": "qubiancheng",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "element-ui": "^2.15.6",
+    "express": "~4.16.1",
+    "express-jwt": "^6.1.1",
+    "http-errors": "~1.6.3",
+    "ioredis": "^4.28.3",
+    "mongoose": "^6.2.4",
+    "morgan": "~1.9.1",
+    "redis": "^4.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
