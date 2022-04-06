@@ -4,8 +4,8 @@ var router = express.Router();
 /* GET users listing. */
 router.post('/', function(req, res, next) {
   var login = {
-    name: '张大帅',
-    psd: 'aotuotage'
+    name: '我怎么这么好看',
+    psd: 'qubiancheng'
   }
   var data = {};
   if(req.body.name == login.name && req.body.psd == login.psd){
